@@ -24,7 +24,7 @@ class User extends JsonResource
             'attributes' => [
                 'user' => [
 //                    'id' => $this->resource->id ?: null,
-                    'id' => $this->resource->id ?: null,
+                    'id' => $this->resource_typo->id ?: null,
                     'name' => $this->resource->name,
                 ]
             ]

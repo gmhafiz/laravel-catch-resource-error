@@ -18,7 +18,7 @@ class User extends JsonResource
 //        return parent::toArray($request);
 
         // php artisan serve
-        // curl -v http://localhost:8001/api/user/1 | jq
+        // curl -v http://localhost:8001/api/user/1
 
         return [
             'attributes' => [
